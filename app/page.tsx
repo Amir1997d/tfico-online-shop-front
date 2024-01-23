@@ -1,4 +1,3 @@
-import ProductCard from '@components/BladeCard';
 import React from 'react';
 
 const Home = () => {
