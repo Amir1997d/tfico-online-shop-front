@@ -11,8 +11,8 @@ import { MdAdminPanelSettings } from "react-icons/md";
 
 
 const Header = () => {
-  const userIsLogged = false;
-  const isAdmin = false;
+  const userIsLogged = true;
+  const isAdmin = true;
   const [sideMenuStyle, setSideMenuStyle] = useState<string>('hidden');
 
   return (
@@ -32,7 +32,7 @@ const Header = () => {
         <ul className='hidden lg:flex w-2/4 justify-center items-center gap-8'>
             <li className='hover:text-orange-400'><Link href="/blades">Blades</Link></li>
             <li className='hover:text-orange-400'><Link href="/machines">Machines</Link></li>
-            <li className='hover:text-orange-400'><Link href="/customized-order">Custom Order</Link></li>
+            <li className='hover:text-orange-400'><Link href="/custom-order">Custom Order</Link></li>
             <li className='hover:text-orange-400'><Link href="/contact">Contact</Link></li>
             <li className='hover:text-orange-400'><Link href="/about">About</Link></li>
         </ul>
@@ -93,7 +93,7 @@ const Header = () => {
           </li>
           <li className='hover:text-orange-400'><Link href="/blades">Blades</Link></li>
           <li className='hover:text-orange-400'><Link href="/machines">Machines</Link></li>
-          <li className='hover:text-orange-400'><Link href="/customized-order">Custom Order</Link></li>
+          <li className='hover:text-orange-400'><Link href="/custom-order">Custom Order</Link></li>
           <li className='hover:text-orange-400'><Link href="/contact">Contact Us</Link></li>
           <li className='hover:text-orange-400'><Link href="/about">About Us</Link></li>
         </ul>

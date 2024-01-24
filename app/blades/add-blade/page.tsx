@@ -2,7 +2,7 @@ import React from 'react'
 
 const Page = () => {
   return (
-    <div>
+    <div className='w-full min-h-screen flex flex-col justify-center items-center'>
       <div>Blade name</div>
       <div>Blade material</div>
       <div>Blade size</div>
