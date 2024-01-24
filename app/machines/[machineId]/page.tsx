@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
 
-const page = () => {
+type Params = {
+  params: {
+    machineId: string;
+  }
+}
+
+const Page = ({ params }: Params) => {
   return (
-    <div>page</div>
+    <div className='w-full h-screen flex justify-center items-center'>
+      <p>machine id Page: {params.machineId}</p>
+    </div>
   )
 }
 
-export default page
+export default Page;

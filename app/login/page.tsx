@@ -1,7 +1,8 @@
-"use client"
+"use client";
+
 import React, { useState } from 'react';
-import LoginForm from '@components/LoginForm';
-import RegisterForm from '@components/RegisterForm';
+import LoginForm from '@components/auth/LoginForm';
+import RegisterForm from '@components/auth/RegisterForm';
 import { FcGoogle } from "react-icons/fc";
 import { FaYandex } from "react-icons/fa";
 

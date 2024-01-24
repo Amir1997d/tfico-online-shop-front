@@ -12,7 +12,7 @@ import { MdAdminPanelSettings } from "react-icons/md";
 
 const Header = () => {
   const userIsLogged = false;
-  const isAdmin = true;
+  const isAdmin = false;
   const [sideMenuStyle, setSideMenuStyle] = useState<string>('hidden');
 
   return (
@@ -33,8 +33,8 @@ const Header = () => {
             <li className='hover:text-orange-400'><Link href="/blades">Blades</Link></li>
             <li className='hover:text-orange-400'><Link href="/machines">Machines</Link></li>
             <li className='hover:text-orange-400'><Link href="/customized-order">Custom Order</Link></li>
-            <li className='hover:text-orange-400'><Link href="/about">About</Link></li>
             <li className='hover:text-orange-400'><Link href="/contact">Contact</Link></li>
+            <li className='hover:text-orange-400'><Link href="/about">About</Link></li>
         </ul>
         <ul className='hidden lg:flex w-1/4 mr-10 justify-end items-center'>
           <li>
@@ -91,10 +91,11 @@ const Header = () => {
               <span>Cart</span>
             </Link>
           </li>
-          <li className='hover:text-orange-400'><Link href="/products">Products</Link></li>
+          <li className='hover:text-orange-400'><Link href="/blades">Blades</Link></li>
+          <li className='hover:text-orange-400'><Link href="/machines">Machines</Link></li>
           <li className='hover:text-orange-400'><Link href="/customized-order">Custom Order</Link></li>
-          <li className='hover:text-orange-400'><Link href="/about">About Us</Link></li>
           <li className='hover:text-orange-400'><Link href="/contact">Contact Us</Link></li>
+          <li className='hover:text-orange-400'><Link href="/about">About Us</Link></li>
         </ul>
       </div>
     </div>
