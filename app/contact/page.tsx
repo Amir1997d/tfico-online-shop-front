@@ -1,11 +1,13 @@
 import ContactForm from '@components/contact/ContactForm';
 import ContactInfo from '@components/contact/ContactInfo';
 import SocialMedia from '@components/contact/SocialMedia';
-import React from 'react';
+import contact from '@public/assets/images/contact.jpg';
+import Image from 'next/image';
 
 const Page = () => {
   return (
-    <div className='w-full min-h-screen mt-24 flex flex-col justify-start items-center'>
+    <div className='w-full mt-24 flex flex-col justify-start items-center'>
+      <Image src={contact} width={500} alt="contact image"/>
       <ContactForm />
       <hr className='w-5/6 border border-orange-400 rounded-md'/>
       <ContactInfo />

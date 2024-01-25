@@ -2,7 +2,7 @@
 
 const ContactForm = () => {
   return (
-    <section className="w-3/4 md:w-1/2 mb-8 flex flex-col p-2 justify-evenly items-center">
+    <section className="w-3/4 md:w-1/2 mt-4 mb-8 flex flex-col p-2 justify-evenly items-center">
         <h2 className="font-bold text-lg mb-6">Get in Touch</h2>
         <form className="w-full flex flex-col items-start">
             <label htmlFor="name" className="mb-1">Name:</label>

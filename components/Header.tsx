@@ -1,8 +1,9 @@
 "use client"
-import Image from 'next/image'
-import React, { useState } from 'react'
-import Link from 'next/link'
-import tfiLogo from '@public/assets/images/tfi-logo-2.png'
+
+import Image from 'next/image';
+import React, { useState } from 'react';
+import Link from 'next/link';
+import tfiLogo from '@public/assets/images/tfi-logo-2.png';
 import { FaMagnifyingGlass, FaCartShopping } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
