@@ -7,6 +7,7 @@ const Home = () => {
       <div>List of Users + block/delete/admin</div>
       <div>List of Blades + add/delete/edit</div>
       <div>List of Machines + add/delete/edit</div>
+      <div>storage managment section</div>
     </div>
   )
 }

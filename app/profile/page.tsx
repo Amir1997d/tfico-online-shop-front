@@ -14,10 +14,7 @@ const Page = () => {
   };
 
   return (
-    <div className='w-full min-h-screen mt-20 flex'>
-      {/* <div>my (personal) information - address - phone number - ...</div>
-      <div>my orders</div>
-      <div>log out</div> */}
+    <div className='w-full mt-20 flex flex-col lg:flex-row'>
       <Sidebar titles={titles} onSelectTitle={handleSelectTitle}/>
       <Content selectedTitle={selectedTitle}/>
    </div>
