@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from 'next/image';
 import React, { useState } from 'react';
@@ -33,7 +33,7 @@ const Header = () => {
         <ul className='hidden lg:flex w-2/4 justify-center items-center gap-8'>
             <li className='hover:text-orange-400'><Link href="/blades">Blades</Link></li>
             <li className='hover:text-orange-400'><Link href="/machines">Machines</Link></li>
-            <li className='hover:text-orange-400'><Link href="/custom-order">Custom Order</Link></li>
+            <li className='hover:text-orange-400'><Link href="/custom-blade">Custom Blade</Link></li>
             <li className='hover:text-orange-400'><Link href="/contact">Contact</Link></li>
             <li className='hover:text-orange-400'><Link href="/about">About</Link></li>
         </ul>
@@ -94,7 +94,7 @@ const Header = () => {
           </li>
           <li className='hover:text-orange-400'><Link href="/blades">Blades</Link></li>
           <li className='hover:text-orange-400'><Link href="/machines">Machines</Link></li>
-          <li className='hover:text-orange-400'><Link href="/custom-order">Custom Order</Link></li>
+          <li className='hover:text-orange-400'><Link href="/custom-blade">Custom Blade</Link></li>
           <li className='hover:text-orange-400'><Link href="/contact">Contact Us</Link></li>
           <li className='hover:text-orange-400'><Link href="/about">About Us</Link></li>
         </ul>

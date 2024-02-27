@@ -4,7 +4,7 @@ import SocialMedia from '@components/contact/SocialMedia';
 import contact from '@public/assets/images/contact.jpg';
 import Image from 'next/image';
 
-const Page = () => {
+const ContactUsPage = () => {
   return (
     <div className='w-full mt-24 flex flex-col justify-start items-center'>
       <Image src={contact} width={500} alt="contact image"/>
@@ -17,4 +17,4 @@ const Page = () => {
   )
 }
 
-export default Page;
+export default ContactUsPage;
