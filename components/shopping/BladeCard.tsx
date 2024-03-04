@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import productImage from '@public/assets/images/blade-1.jpeg';
 
