@@ -21,6 +21,22 @@ const MachineFilters = () => {
               <option>Cutting</option>
             </select>
           </div>
+          <div className='w-full mt-4'>
+            <label>Type:</label>
+            <select name="industrial" id="industrial" className='w-full border-orange-400 rounded-md border px-1 py-2 mt-1' defaultValue="Select an Industrial">
+              <option value="Select an Industrial">Select a Type</option>
+              <option>Band Sawing Machine</option>
+              <option>Band Sawing Machine</option>
+            </select>
+          </div>
+          <div className='w-full mt-4'>
+            <label>CNC:</label>
+            <select name="industrial" id="industrial" className='w-full border-orange-400 rounded-md border px-1 py-2 mt-1' defaultValue="Select an Industrial">
+              <option value="Select an Industrial">Select CNC</option>
+              <option>No-CNC</option>
+              <option>CNC</option>
+            </select>
+          </div>
           <button className='bg-gradient-to-r from-yellow-500 to-orange-500 text-white p-2 w-full mt-8 mb-2 rounded-md hover:from-orange-500 hover:to-red-600'>Filter</button>
         </form>
     </div>

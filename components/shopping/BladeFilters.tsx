@@ -12,7 +12,7 @@ const BladeFilters = () => {
             <input type="text" name="max-price" pattern="[0-9]" placeholder='to' className='w-1/2 border-orange-400 rounded-md border px-2 py-1'/>
           </div>
           <div className='w-full'>
-            <label>Industrial:</label>
+            <label>Industry:</label>
             <select name="industrial" id="industrial" className='w-full border-orange-400 rounded-md border px-1 py-2 mt-1' defaultValue="Select an Industrial">
               <option value="Select an Industrial">Select an Industrial</option>
               <option>Wood</option>
@@ -21,6 +21,17 @@ const BladeFilters = () => {
               <option>Cutting</option>
             </select>
           </div>
+          <div className='w-full mt-4'>
+            <label>Material:</label>
+            <select name="industrial" id="industrial" className='w-full border-orange-400 rounded-md border px-1 py-2 mt-1' defaultValue="Select an Industrial">
+              <option value="Select an Industrial">Select Material</option>
+              <option>Tool Steel</option>
+              <option>HSS</option>
+              <option>1244</option>
+              <option>shbvmbs</option>
+            </select>
+          </div>
+
           <button className='bg-gradient-to-r from-yellow-500 to-orange-500 text-white p-2 w-full mt-8 mb-2 rounded-md hover:from-orange-500 hover:to-red-600'>Filter</button>
         </form>
     </div>

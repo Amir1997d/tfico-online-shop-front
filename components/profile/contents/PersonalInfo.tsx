@@ -11,6 +11,7 @@ const PersonalInfo = () => {
                 type="text"
                 id="name"
                 name="name"
+                placeholder='Your Name'
                 required
                 className='w-full border-orange-400 rounded-md border px-2 py-1 mt-1'
             />
@@ -22,6 +23,7 @@ const PersonalInfo = () => {
                 type="email"
                 id="email"
                 name="email"
+                placeholder='Your Email'
                 required
                 className='w-full border-orange-400 rounded-md border px-2 py-1 mt-1'
             />
@@ -37,9 +39,34 @@ const PersonalInfo = () => {
             />
         </div>
 
+        <div className='w-full flex justify-around items-center gap-2'>
+          <div className='w-full flex flex-col justify-center items-start'>
+            <label htmlFor="name">City:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder='Your City'
+                required
+                className='w-full border-orange-400 rounded-md border px-2 py-1 mt-1'
+            />
+          </div>
+          <div className='w-full flex flex-col justify-center items-start'>
+            <label htmlFor="name">Postal Code:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder='Your Postal Code'
+                required
+                className='w-full border-orange-400 rounded-md border px-2 py-1 mt-1'
+            />
+          </div>
+        </div>
+
         <div className='w-full flex flex-col justify-center items-start'>
             <label htmlFor="deliveryAddress">Delivery Address:</label>
-            <textarea name="deliveryAddress" id="deliveryAddress" rows={3} required className='w-full border-orange-400 rounded-md border px-2 py-1 mt-1'></textarea>
+            <textarea name="deliveryAddress" id="deliveryAddress" rows={3} required className='w-full border-orange-400 rounded-md border px-2 py-1 mt-1' placeholder='Your Address'></textarea>
         </div>
 
         <button type="submit" className='w-1/4 p-1 mt-4 bg-gradient-to-r from-yellow-500 to-orange-500 text-white rounded-md hover:from-orange-500 hover:to-red-600'>Save</button>
