@@ -12,6 +12,7 @@ const ContactForm = () => {
               name="name"
               required 
               className="w-full h-8 px-2 border border-orange-400 rounded-md mb-2"
+              placeholder="Your Name"
             />
 
             <label htmlFor="email" className="mb-1">Email:</label>
@@ -21,10 +22,11 @@ const ContactForm = () => {
               name="email" 
               required 
               className="w-full h-8 px-2 border border-orange-400 rounded-md mb-2"
+              placeholder="Example@gmail.com"
             />
 
             <label htmlFor="message" className="mb-1">Message:</label>
-            <textarea id="message" name="message" rows={4} required className="w-full px-2 py-1 border border-orange-400 rounded-md mb-2"></textarea>
+            <textarea id="message" name="message" rows={4} required className="w-full px-2 py-1 border border-orange-400 rounded-md mb-2"  placeholder="Your Message"></textarea>
 
             <button type="submit" className="w-full h-8 mt-4 bg-gradient-to-r from-yellow-500 to-orange-500 text-white rounded-md hover:from-orange-500 hover:to-red-600">Submit</button>
         </form>

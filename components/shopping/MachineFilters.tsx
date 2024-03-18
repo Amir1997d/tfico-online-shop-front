@@ -12,9 +12,9 @@ const MachineFilters = () => {
             <input type="text" name="max-price" pattern="[0-9]" placeholder='to' className='w-1/2 border-orange-400 rounded-md border px-2 py-1'/>
           </div>
           <div className='w-full'>
-            <label>Industrial:</label>
+            <label>Industry:</label>
             <select name="industrial" id="industrial" className='w-full border-orange-400 rounded-md border px-1 py-2 mt-1' defaultValue="Select an Industrial">
-              <option value="Select an Industrial">Select an Industrial</option>
+              <option value="Select an Industrial">Select an Industry</option>
               <option>Wood</option>
               <option>Paper</option>
               <option>Packing</option>
