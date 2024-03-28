@@ -2,7 +2,7 @@ import React from 'react';
 
 const BladeFilters = () => {
   return (
-    <div className='lg:w-1/4 h-full border-orange-400 rounded-md my-4 mx-2 border p-4 bg-orange-100 lg:sticky lg:top-28'>
+    <div className='lg:w-1/4 h-full border-orange-400 rounded-md my-4 mx-2 border p-4 bg-orange-100'>
         <p className='text-orange-500 font-bold text-xl'>Filters</p>
         <hr className='border-orange-500 mb-4'/>
         <form className='w-full flex flex-col justify-start items-start'>
